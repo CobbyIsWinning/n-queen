@@ -37,7 +37,7 @@ def mutate(board, mutation_rate=0.1):
     return board
 
 
-def genetic_algorithm(n, population_size=100, generations=500, time_limit=5):
+def genetic_algorithm(n, population_size=100, generations=500, time_limit=21600):
 
     population = create_population(population_size, n)
 

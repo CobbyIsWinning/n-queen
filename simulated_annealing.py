@@ -20,7 +20,7 @@ def calculate_conflicts(board):
     return conflicts
 
 
-def simulated_annealing(n, time_limit=5):
+def simulated_annealing(n, time_limit=21600):
 
     board = [random.randint(0, n - 1) for _ in range(n)]
 

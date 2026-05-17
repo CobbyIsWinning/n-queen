@@ -3,7 +3,8 @@ import tracemalloc
 import signal
 
 # Timeout settings because DFS can take a long time for larger N
-TIME_LIMIT = 5  # seconds per experiment
+# increase default timeout to 6 hours (21600 seconds)
+TIME_LIMIT = 21600  # seconds per experiment (6 hours)
 
 
 class TimeoutException(Exception):

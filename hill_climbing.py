@@ -19,7 +19,7 @@ def calculate_conflicts(board):
     return conflicts
 
 
-def hill_climbing(n, max_iterations=10000, time_limit=5):
+def hill_climbing(n, max_iterations=10000, time_limit=21600):
 
     board = [random.randint(0, n - 1) for _ in range(n)]
 
